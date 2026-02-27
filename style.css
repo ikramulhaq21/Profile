@@ -1,0 +1,60 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #0e1d33, #6e1cf3);
+}
+
+.profile-img {
+  width: 150px;
+  border: 4px solid white;
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in;
+}
+
+.slide-up {
+  animation: slideUp 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes slideUp {
+  from {transform: translateY(40px); opacity: 0;}
+  to {transform: translateY(0); opacity: 1;}
+}
+
+.skill {
+  animation: grow 2s ease-in-out forwards;
+}
+
+.html { width: 90%; }
+.css { width: 85%; }
+.bs { width: 80%; }
+
+@keyframes grow {
+  from { width: 0; }
+}
+
+.project-card {
+  border-radius: 15px;
+  transition: 0.4s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.btn {
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
