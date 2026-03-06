@@ -1,0 +1,15 @@
+.hero{
+background: linear-gradient(rgba(0,0,0,0.5), rgba(61, 60, 60, 0.5)),
+url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6");
+background-size: cover;
+background-position: center;
+padding:120px 0;
+}
+
+.card{
+transition:0.3s;
+}
+
+.card:hover{
+transform: translateY(-8px);
+}
